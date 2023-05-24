@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    background-image: url('https://wallpapercave.com/wp/wp3594884.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 15px;
+}
+.upper__navbar{
+    width: 100%;
+    height: 60px;
+}
+
+.icon_items{
+    display: flex;
+    height: 60px;
+    list-style-type: none;
+    align-items: center;
+    float: right;
+    margin-right: 200px;
+    cursor: pointer;
+}
+.icon_items > li{
+    margin: 0px 5px;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.navbar > h1{
+    margin-left: 20%;
+    font-weight: 300;
+    font-size: 25px;
+    cursor: pointer;
+}
+.collection{
+    display: flex;
+    list-style-type: none;
+    margin-left: 30%;
+}
+.collection > li{
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    color: #fff;
+    font-size: x-large;
+}
+.item > h1{
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    margin-left: 30%;
+
+}
+.button > button{
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 45px;
+    margin-top: 3%;
+    margin-left: 5%;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    cursor: pointer;
+}
+
+.button > button:hover{
+    background-color: rgb(138, 125, 11);
+}
+.button > .default{
+    background-color: rgb(138, 125, 11);
+}
+
+.button > .default:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.banner_two{
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.banner_two > h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+.banner_two > h3{
+    text-align: center;
+    color: grey;
+    font-family: monospace;
+}
+.big_banner{
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.banner_three{
+    width: 30%;
+    height: 40%;
+    
+}
+
+.banner_three > h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.banner_three > h3{
+    color: grey;
+    margin-top: 20px;
+}
+.button_one{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: coral;
+    border-color: grey;
+    border-width: 100;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+   
+}
+
+.read_more:hover{
+    background-color: rgba(236, 228, 228, 0.5);
+}
+.button_one:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.banner_four{
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+   
+}
+.img{
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+    
+}
+.bunner_three{
+    width: 100%;
+    height: 650px;
+    background-image: url(https://wallpaperaccess.com/full/492726.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 15px black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+.read_more{
+    width: 120px;
+    height: 45px;
+    background-color: darkorange;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.bunner_three > h2{
+    font-family: sans-serif;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.table > ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sign{
+   margin-bottom: 40px;
+   font-size: 80px;
+   list-style-type: none;
+
+}
+.table_collection{
+   background-color: rgba(0,0,0,0.5);
+   backdrop-filter: blur(5px);
+   margin-top: 7%;
+   margin-left: 4%;
+   width: 300px;
+   height: 350px;
+   font-size: 20px;
+
+}
+.link_collection{
+   list-style-type: none;
+   text-align: left;
+   margin-top: -20px;
+}
+.link{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: rgba(231, 145, 15, 0.808);
+}
+
+.link > span{
+    color: darkgoldenrod;
+}
+.link > span:hover{
+    color: rgb(255, 253, 249);
+}
+.button_one{
+    width: 200px;
+    height: 40px;
+    background-image: red;
+}
+.bunner_four{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 15px black;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    margin-left: 50px;
+    box-shadow: 0px 10px 15px black;
+}
+.picture{
+    width: 250px;
+    height: 250px;
+}
+.bunner_five{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 10px 15px black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://cdn.statically.io/img/wallpaperplay.com/walls/full/2/a/9/171850.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    color: #000;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+.picture_item{
+    width: 250px;
+    height: 250px;
+    background-color: cyan;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+}
+.pictue_collection{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+   backdrop-filter: blur(5px);
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 700px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.wrapper__item{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    cursor: pointer;
+    margin-top: -200px;
+}
+.mp{
+    width:300px;
+    height: 300px;
+}
+
+.social__icon{
+    width: 200px;
+    margin-left: 50px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.class:hover{
+    background-color: rgba(22, 92, 184, 0.966);
+}
+.class_a:hover{
+    background-color: rgba(25, 22, 194, 0.5);
+}
+.class_b:hover{
+    background-color: rgb(155, 54, 15);
+}
+.class_c:hover{
+    background-color: rgb(75, 18, 167);
+}
+.social__icon > li{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgba(151, 10, 10, 0.5);
+    backdrop-filter: blur(5px);
+}
+.button_two{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 100px;
+    border-color: #fff;
+    font-size: large;
+    font-weight: 700;
+    color: #fff;
+    background-color: coral;
+    border-color: grey;
+    border-width: 100;
+    cursor: pointer;
+}
+.button_two:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.bunner_parent{
+    background-image: url(https://wallpaper.dog/large/5568071.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 15px black;
+ 
+}
+.bunner_six{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3%;
+    margin-top: 20px;
+    
+}
+.bunner_six > h2{
+    color: grey;
+}
+.bunner_six > h3{
+    color: grey;
+  
+}
+.wrapper_collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  
+}
+.jpg{
+    width: 250px;
+    height: 300px;
+
+}
+.CSS{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 70%;
+    height: 300px;
+    margin-top: -15%;
+    margin-left: 15%;
+    color: #fff;
+    font-weight: 700;
+    font-size: large;
+    
+}
+.JS{
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    background-color: rgba(34, 23, 23, 0.5);
+    backdrop-filter: blur(5px);
+    padding-top: 100px;
+    
+}
+.li{
+    margin-top: -100px;
+    list-style-type: none;
+}
+.text{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.LEO{
+    list-style-type: none;
+}
+.cursor{
+    margin-top: 30px;
+    color: darkorange;
+    cursor: pointer;
+}
+.bunner_seven{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://wallpaperaccess.com/full/2254521.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 15px black;
+}
+.input_collection{
+    margin-top: 60px;
+    width: 60%;
+    height: 40px;
+    border-color: rgba(196, 199, 25, 0.589);
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.button_collection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button_collection_btn{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: rgba(249, 253, 15, 0.589);
+    font-size: larger;
+    font-weight: 700;
+    cursor:pointer;
+    
+}
+   .button_collection_btn:hover{
+    background-color: rgba(0,0,0,0.5);
+   }
+
+
+.bunner_eight{
+    width: 100%;
+    height: 700px;
+    /* background-color: blueviolet; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.bunner_eight_b{
+    width: 70%;
+    height: 400px;
+
+}
+.first{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.bunner_eight_b{
+    width: 80%;
+    margin: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.eight_picture{
+    display: flex;
+    width: 250px;
+    height: 600px;
+    /* background-color: rgba(0,0,0,0.5); */
+    /* backdrop-filter: blur(5px); */
+}
+.eight_picture > ul{
+    list-style-type: none;
+    
+    
+}
+.icon_b{
+    list-style-type: none;
+    display: flex;
+    font-family: cursive;
+    
+}
+.option{
+    padding: 20px;
+    font-size: 17px;
+    border-bottom: 1px solid gray;
+    
+}
+.option > i{
+    margin-right: 20px;
+}
+.icon_b_c{
+     width: 40px;
+     height: 40px;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin-left: 20px;
+     margin-top: 10px;
+     color: #fff;
+     cursor: pointer;
+}
+.icon_b_c:hover{
+     background-color: rgba(103, 18, 240, 0.5);
+}
+.p{
+     margin-top: 30px;
+}
+.a{
+     padding-top: 10px;
+     border-bottom:  solid 1px grey;
+     padding-bottom: 10px;
+     margin-top: 15px;
+     color: darkorange;
+     cursor: pointer;
+}
+.text_item{
+    display: flex;
+    /* margin-top: 500px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.text_item_collection{
+    margin-left: 800px;
+}
